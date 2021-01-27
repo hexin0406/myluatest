@@ -1,0 +1,159 @@
+--======================================================================--
+-- @作者: GGE研究群: 342119466
+-- @创建时间:   2018-03-03 02:34:19
+-- @Last Modified time: 2020-01-08 18:03:56
+--所有素材反编译由GGE开发者 313738139 baidwwy GGELUA作者亲自写.
+--======================================================================--
+local Key = {
+        0x8E,0x38,0x8F,0x75,0x83,0xB7,0x43,0x0D,0xDD,0x88,0xAD,0x29,0x4C,0xF9,0xB4,0xE4,
+        0x44,0xF4,0xA3,0x64,0x7D,0x4B,0x5C,0x0B,0x34,0x09,0x12,0x5A,0x14,0xB4,0x98,0xB5,
+        0x85,0x55,0x61,0x0D,0x0A,0x12,0x62,0x61,0xE0,0x02,0x74,0x78,0x7A,0x19,0xC7,0x0B,
+        0x09,0xAC,0x94,0x30,0x60,0x46,0xE1,0xB3,0x02,0xB8,0xCC,0x4A,0xF7,0xD3,0x6B,0xAD,
+        0x49,0x63,0x76,0x83,0x6C,0xC1,0x8F,0x30,0xB0,0xB0,0x92,0xF3,0x3C,0x15,0xFE,0xF3,
+        0x0C,0x2A,0x1B,0x65,0x8C,0x98,0xE3,0xA5,0x92,0x1A,0x3A,0x05,0x2E,0x61,0xC0,0x63,
+        0x0B,0x55,0x60,0x4A,0x4C,0xC5,0x29,0x90,0x1E,0x64,0x8C,0xBA,0xDF,0xD7,0x4F,0xD7,
+        0xBB,0xB8,0xA6,0xB2,0x85,0xA5,0xC7,0xE9,0x7E,0x73,0x28,0xBF,0x75,0x8C,0xDE,0x5C,
+        0x28,0x5A,0xFE,0x31,0x11,0x7E,0x19,0x45,0x11,0x94,0xF4,0x9E,0x4C,0xE6,0x6E,0x58,
+        0x48,0x6F,0xC9,0xEC,0x36,0x61,0xBB,0x9C,0x03,0x57,0x67,0xF1,0x0C,0xC4,0x75,0xF7,
+        0xCA,0xAF,0x98,0x31,0xCF,0xD7,0xF8,0x1A,0x2F,0x35,0x14,0xDB,0x75,0x19,0x93,0x0F,
+        0xA4,0x83,0x27,0x7D,0x67,0x67,0x74,0x93,0x49,0x63,0x08,0x67,0xB1,0x54,0xEA,0xD7,
+        0xD9,0x34,0x03,0x0B,0x70,0x09,0xD9,0x33,0x85,0xA4,0x79,0x1F,0x57,0xA0,0x4B,0x88,
+        0x02,0x11,0x79,0x4F,0x8A,0x6E,0x0F,0x95,0xBF,0x08,0x5F,0x4F,0x74,0xAE,0x19,0xDA,
+        0xBB,0x80,0xC9,0x3A,0x3A,0x94,0xBA,0x11,0x18,0x46,0xFC,0x8C,0x33,0x48,0x0D,0x18,
+        0x10,0x5A,0xF1,0x9C,0x57,0xCF,0x2A,0xCB,0xB6,0x5D,0x3C,0x19,0x0B,0x3B,0xFC,0xDD,
+        0x20
+    }
+
+local function _解密列表(Data, Size)
+    local Data = ffi.cast("char*", Data)
+    local Key_Step = 1
+    for i = 0, Size - 1, 1 do
+        Data[i] = bit.bxor(Data[i], Key[Key_Step])
+        Key_Step = Key_Step + 1
+        if Key_Step == 34 then
+            Key_Step = Key_Step + 1
+        end
+        if Key_Step == 258 then
+            Key_Step = 1
+        end
+    end
+end
+
+ffi = require("ffi")
+ffi.cdef([[
+    typedef struct {
+        char Flag[4]; // 包裹的标签
+        uint32_t Number; // 包裹中的文件数量
+        uint32_t Offset; // 包裹中的文件列表偏移位置
+    }WDF_HEADER;
+
+    typedef struct {
+        uint32_t Hash; // 文件的名字散列
+        uint32_t Offset; // 文件的偏移
+        uint32_t Size; // 文件的大小
+        uint32_t Spaces; // 文件的空间
+    }WDF_FILELIST;
+]])
+
+
+local wdf = class()
+local _Max = 0
+local _Ptr = nil
+
+function wdf:初始化(路径)
+    self.路径 = 路径
+    self.File = require("Script/资源类/文件类")(路径)
+    self.List = {}
+    local head = self.File:读入数据(ffi.new("WDF_HEADER"))
+    local flag = ffi.string(head.Flag, 4)
+    self.File:移动读写位置(head.Offset, self.File.SEEK_SET)
+    self.Clist = self.File:读入数据(ffi.new("WDF_FILELIST[?]", head.Number))
+    if flag == "XFDW" or flag == "HFDW" or flag == "NXPK" then
+        _解密列表(self.Clist, ffi.sizeof(self.Clist))
+    end
+    local MaxSize = 0
+    for i = 0, head.Number - 1, 1 do
+        self.List[self.Clist[i].Hash] = self.Clist[i]
+        if MaxSize < self.Clist[i].Size then
+            MaxSize = self.Clist[i].Size
+        end
+    end
+    if _Max < MaxSize then
+        _Max = MaxSize
+        _Ptr = ffi.new("char[?]", MaxSize)
+    end
+end
+
+function wdf:读数据(Hash)
+    if type(Hash) == "string" then
+        Hash = tonumber(Hash)
+    end
+    if self.List[Hash] then
+        self.File:移动读写位置(self.List[Hash].Offset, self.File.SEEK_SET)
+        self.File:读入数据(_Ptr, self.List[Hash].Size)
+
+        return _Ptr, self.List[Hash].Size
+    end
+end
+
+function wdf:取文件(Hash)
+
+    return self:读数据(Hash)
+end
+
+function wdf:取纹理(Hash)
+    return require("gge纹理类")(self:读数据(Hash))
+end
+
+function wdf:取精灵(Hash)
+    return require("Script/通用方法/gge精灵类")(self:取纹理(Hash))
+end
+
+function wdf:读偏移(Hash)
+    if self.List[Hash] then
+        return self.List[Hash].Offset, self.List[Hash].Size
+    end
+end
+
+function wdf:取偏移(Hash)
+    if type(Hash) == "string" then
+        Hash = tonumber(Hash)
+    end
+    if self.List[Hash] then
+        return self.List[Hash].Offset
+    end
+end
+
+function wdf:取长度(Hash)
+    if type(Hash) == "string" then
+        Hash = tonumber(Hash)
+    end
+    if self.List[Hash] then
+        return self.List[Hash].Size
+    end
+end
+
+function wdf:置注释(path)
+    local ini = __gge.readfile(path)
+    if ini then
+        slot3, slot4, slot5 = ini:gmatch("([^\r\n]+)")
+        if ini.gmatch("([^\r\n]+)") then
+            local param, value = line:match("^(.-)%s*=%s*(.+)$")
+            if param and value then
+                if not self.List[value] then
+                    self.List[value] = self.List[tonumber(param, 16)]
+                    if not self.List[value] then
+                        print("ID不存在", value, param, tonumber(param, 16))
+                    end
+                else
+                    print("路径重复", self.路径, value)
+                end
+            end
+        end
+    else
+        error("ini不存在！", level)
+    end
+    return self
+end
+
+return wdf
