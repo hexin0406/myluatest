@@ -1,0 +1,187 @@
+全局宽度,全局高度=425,190
+全局游戏宽度,全局游戏高度=全局宽度,全局高度
+全局={鼠标延时=0,鼠标延时2=0,鼠标延时3=0,是否自动走路=false}
+是否战斗Q=false
+
+require("Script/自己_专用")
+wdf配置 = "WDF"
+__gge.safecall = function (func,...)
+    local args = { ... };
+    local ret = {xpcall(function() return func(unpack(args)) end, __gge.traceback)}
+
+    if ret[1] and ret[2] then
+        return unpack(ret, 2)
+    end
+    return false
+end
+require("gge函数")--引用头
+
+游戏进程=0
+鼠标={x=0,y=0}
+
+游戏时间=0
+上次标记=0
+开始标记=false
+jkkg=false
+jksj=0
+
+function 更新函数(dt,x,y)--帧率,鼠标x,鼠标y
+ 全局dt=dt
+ 标记时间=标记时间+1
+ if jkkg then
+   jksj=jksj+1
+   if jkkg>=10 then
+
+     jksj=jksj+1
+
+
+     end
+
+   end
+
+
+ if 游戏进程==1 then
+
+      登录处理类:更新(dt)
+ 	 end
+
+  鼠标动画:更新(dt)
+  信息提示:更新(dt)
+
+end
+
+
+function 渲染函数(x,y)--鼠标x,鼠标y
+	鼠标.x,鼠标.y=x,y
+	引擎.渲染开始()
+	引擎.渲染清除(0xFF000000)
+    if 游戏进程==1 then
+
+      登录处理类:显示()
+
+    end
+
+ 信息提示:显示(1)
+ 鼠标动画:显示(x,y)
+ 引擎.渲染结束()
+
+
+end
+function 发送数据(序号,内容)
+ 客户端:发送数据(序号,内容)
+ end
+local function 退出函数()
+
+	return true
+end
+
+
+function 回调函数(q,w)
+
+end
+
+ 黄色=0xFFFFFF00
+ 黑色=0xFF000000
+ 黄色=0xFFFFFF00
+ 绿色=0xFF00FF00
+ 红色=0xFFFF0000
+ 白色=0xFFFFFFFF
+ 紫色=0xFF6B238E
+ 蓝色=0xFF0000FF
+
+引擎.置退出函数(退出函数)
+WDF类 = require("Glow/WDF类")
+WAS类 = require("Glow/WAS类")
+图像类 = require("gge图像类")
+动画类 = require("Script/核心/动画类")
+WAS动画类 = require("Script/核心/WAS动画类")
+按钮类 = require("Script/核心/按钮类")
+包围盒 = require("Script/核心/包围盒类")
+ffi = require("ffi")
+f函数=require("ffi函数")
+文字类 =require("gge文字类")
+输入框=require("ggeui/输入类")
+封包加密=require("Script/核心系统/封包加密")
+客户端 = require("Script/核心系统/客户端类")
+
+引擎("梦幻西游OL超级工具",全局宽度,全局高度,60,true)
+f函数.修改窗口图标("001.ICO")
+
+--===================================================================================================================
+--程序目录=[[E:\梦幻归来\客户端\游戏模板\compile\wdf\]]
+程序目录=[[zy\]]
+全局变量={}
+全局变量.游戏目录=程序目录
+全局变量.ljmm="12345678"
+
+道具文本=require("丰富文本类")(190,270)
+标记时间=0
+
+ 键盘符号={
+左键=0x00,
+中键=0x02,
+右键=0x01,
+退格=0x08,
+回车=0x0D,
+空格=0x20,
+tab=0x9,
+左=0x25,
+上=0x26,
+右=0x27,
+下=0x28
+
+}
+右键=0x01
+左键=0x00
+
+资源加载类= require("Script/核心/资源加载类").创建()
+鼠标类=require("Script/界面/鼠标动画类")
+鼠标动画=鼠标类.创建()
+信息提示=require("Script/界面/游戏提示类").创建()
+登录处理类= require("Script/登录系统/登录系统").创建()
+游戏进程=1
+名称文字 = require("gge文字类")("C:/Windows/Fonts/simsun.ttc",18,true,true)
+字体= require("gge文字类")("C:/Windows/Fonts/simsun.ttc",14,true,true)
+文字 = require("gge文字类")():置颜色(0xFF050202)
+文字:置颜色(白色)
+队伍id=0
+自动战斗=false
+角色移动=0
+错误日志=""
+登录日志=""
+错误数目=0
+自动回合=30
+游戏时辰={当前=1,刷新=90,起始=os.time()}
+检测1=0
+检测2=0
+
+
+function 取数组长度(数组)
+
+ local 临时计数=0
+ for n, v in pairs(数组) do
+
+     临时计数=临时计数+1
+     end
+
+ return 临时计数
+ end
+
+
+function 取百分比(q,w)
+-- print(q,w)
+ 初始百分比=w/100
+ 中间百分比=q/初始百分比
+
+ return 中间百分比
+
+
+ end
+function 外部聊天框窗口关闭(wbgb)
+  if 引擎.外部 ~= nil and wbgb then
+    引擎.外部.关闭()
+    引擎.外部 = nil
+  end
+end
+ --print(取硬盘特征字("1"))
+
