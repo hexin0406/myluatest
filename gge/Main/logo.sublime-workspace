@@ -1,0 +1,209 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Lua/ggegame.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Lua/ggegame.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua/ggeserver.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Lua/ggegame.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 313.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package→安装程序包"
+			]
+		],
+		"width": 632.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/gge/Main"
+	],
+	"file_history":
+	[
+		"/E/gge/Main/River Flows In You.mp3",
+		"/E/gge/Main/logo.sublime-project",
+		"/E/gge/Main/logo.png",
+		"/E/gge/Main/main.lua",
+		"/E/gge/Main/galaxy2d.log",
+		"/E/gge/Main/ggemain.lua",
+		"/I/我的项目/GGELUA/Core/Server/ggemain.lua",
+		"/I/我的项目/GGELUA/Core/Game/ggemain.lua",
+		"/D/Desktop/GGELUA/extend/Fmod类.lua",
+		"/D/Desktop/GGELUA/lua/Fmod类.lua",
+		"/D/Desktop/GGELUA/samples/logo/main.lua",
+		"/D/Desktop/GGELUA/samples/logo/logo.sublime-project",
+		"/D/Desktop/GGELUA/main.lua",
+		"/D/Desktop/GGELUA/samples/logo.sublime-project"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"false",
+			"logo",
+			".创建"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 173.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Lua/ggegame.sublime-build",
+	"project": "logo.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

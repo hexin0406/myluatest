@@ -1,0 +1,23 @@
+Galaxy2D Game Engine 4.2
+版权声明: 版权所有(c) 2005 沈明. 保留所有权利.
+主页地址: http://www.cppblog.com/jianguhan/
+电子邮箱: jianguhan@126.com
+创建时间: 2020-1-19 22:41:53
+操作系统: Windows 6.1.7601
+CPU信息: Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+物理内存: 4096M, 剩余:4096M
+
+开始初始化 Galaxy2D Game Engine.
+视频设备:Intel(R) HD Graphics 4000
+最大纹理尺寸:8192x8192
+显示模式:800x600x32(窗口)
+初始化视频设备成功.
+音频设备:扬声器 (Cirrus Logic CS4206B (AB 82))
+音频位速:16
+音频频率:44100
+初始化音频设备成功.
+Galaxy2D Game Engine 初始化完毕.
+
+载入纹理文件[logo.png]成功.
+
+Galaxy2D Game Engine 运行结束.

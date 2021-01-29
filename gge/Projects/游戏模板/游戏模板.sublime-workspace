@@ -1,0 +1,1236 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"金蚕",
+				"金蚕丝裙	(物品.lua)"
+			],
+			[
+				"else",
+				"elseif"
+			],
+			[
+				"老唐定制",
+				"老唐定制宝箱处理"
+			],
+			[
+				"坐骑",
+				"坐骑内丹"
+			],
+			[
+				"宝石镶嵌",
+				"宝石镶嵌处理"
+			],
+			[
+				"宝石合成",
+				"宝石合成处理"
+			],
+			[
+				"Q_取随机",
+				"Q_取随机渡劫武器	(共用.lua)"
+			],
+			[
+				"进阶",
+				"进阶龙龟"
+			],
+			[
+				"武器染色",
+				"武器染色组"
+			],
+			[
+				"取渡劫",
+				"取渡劫任务	(任务处理类.lua)"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"for",
+				"for	for i=1,10"
+			],
+			[
+				"梦幻粉",
+				"梦幻粉丝	(战斗处理类.lua)"
+			],
+			[
+				"让",
+				"让海啸席卷	(main.lua)"
+			],
+			[
+				"VIP",
+				"VIP数据"
+			],
+			[
+				"VIP1",
+				"VIP1状态"
+			],
+			[
+				"V",
+				"VIP定制	(main.lua)"
+			],
+			[
+				"os",
+				"os.exit	([code])"
+			],
+			[
+				"初级",
+				"初级神魂丹	(道具处理类.lua)"
+			],
+			[
+				"elseif",
+				"elseif	elseif cond then"
+			],
+			[
+				"fo",
+				"for	for i=1,10"
+			],
+			[
+				"取车迟",
+				"取车迟斗法三清信息"
+			],
+			[
+				"设置车迟",
+				"设置车迟斗法副本	(道具处理类.lua)"
+			],
+			[
+				"帮派竞赛",
+				"帮派竞赛开关1"
+			],
+			[
+				"f",
+				"fori	for i,v in ipairs()"
+			],
+			[
+				"取随机",
+				"取随机数(1,#wb"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"刷出",
+				"刷出摩羯座	(任务处理类.lua)"
+			],
+			[
+				"统计",
+				"统计英雄大会排行榜"
+			],
+			[
+				"取",
+				"取队伍平均等级"
+			],
+			[
+				"取地图",
+				"取门派巡逻地图	(地图处理类.lua)"
+			],
+			[
+				"local",
+				"local"
+			],
+			[
+				"我要领取",
+				"我要领取比赛奖励	(对话内容.lua)"
+			],
+			[
+				"交纳",
+				"交纳报名费用"
+			],
+			[
+				"取武器",
+				"取武器类型"
+			],
+			[
+				"随机160级本角色使用武器",
+				"随机160级本角色使用武器。"
+			],
+			[
+				"随机160",
+				"随机160级本角色使用装备，属性偏高。"
+			],
+			[
+				"读",
+				"读csv数据	(共用.lua)"
+			],
+			[
+				"取高级",
+				"取高级要诀	(道具处理类.lua)"
+			],
+			[
+				"Q_",
+				"Q_随机烹饪"
+			],
+			[
+				"开启飞升",
+				"开启飞升化生推荐	(对话内容.lua)"
+			],
+			[
+				"法术修炼",
+				"法术修炼*0"
+			],
+			[
+				"你",
+				"你没有那么多的银子"
+			],
+			[
+				"坐骑染色",
+				"坐骑染色处理"
+			],
+			[
+				"好的，我",
+				"好的，我这就去	(对话内容.lua)"
+			],
+			[
+				"超级",
+				"超级金柳露"
+			],
+			[
+				"上古",
+				"上古锻造图策	(道具处理类.lua)"
+			],
+			[
+				"天眼",
+				"天眼通符	(商城处理类.lua)"
+			],
+			[
+				"物品",
+				"物品奖励系数"
+			],
+			[
+				"法术伤害",
+				"法术伤害结果"
+			],
+			[
+				"ese",
+				"else"
+			],
+			[
+				"封印",
+				"封印必中"
+			],
+			[
+				"命中",
+				"命中-攻击方"
+			],
+			[
+				"法术",
+				"法术技能特效	(main.lua)"
+			],
+			[
+				"取法宝",
+				"取指定法宝境界"
+			],
+			[
+				"取经脉",
+				"取奇经八脉是否有"
+			],
+			[
+				"取单个",
+				"取单个友方目标"
+			],
+			[
+				"洗点",
+				"洗点处理	(召唤兽处理类.lua)"
+			],
+			[
+				"开关",
+				"开启门派闯关"
+			],
+			[
+				"传送长安",
+				"传送长安城"
+			],
+			[
+				"取队伍最低",
+				"取队伍最低等级	(共用.lua)"
+			],
+			[
+				"取队伍最高等级",
+				"取队伍最高等级数	(共用.lua)"
+			],
+			[
+				"取等级",
+				"取等级怪"
+			],
+			[
+				"100级",
+				"100级装备礼包	(商城处理类.lua)"
+			],
+			[
+				"60级",
+				"60级随机灵饰指南书"
+			],
+			[
+				"玄武",
+				"玄武石	(物品.lua)"
+			],
+			[
+				"二级符石",
+				"二级未激活符石	(商城处理类.lua)"
+			],
+			[
+				"二级",
+				"二级未激活符石	(商城处理类.lua)"
+			],
+			[
+				"一级",
+				"一级未激活符石	(商城处理类.lua)"
+			],
+			[
+				"商品",
+				"商品棉布"
+			],
+			[
+				"特性",
+				"特性几率	(宠物.lua)"
+			],
+			[
+				"清灵净瓶",
+				"清灵净瓶处理"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"loca",
+				"local"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"凝神",
+				"凝神决	(装备处理类.lua)"
+			],
+			[
+				"灵饰",
+				"灵饰属性"
+			],
+			[
+				"elsif",
+				"elseif"
+			],
+			[
+				"esle",
+				"else"
+			],
+			[
+				"体力",
+				"体力资质	(商城处理类.lua)"
+			],
+			[
+				"符石",
+				"符石道人	(对话内容.lua)"
+			],
+			[
+				"师傅",
+				"师傅领进门，修行在个人。本门法术之精妙还望各位多多领悟。"
+			],
+			[
+				"我只是",
+				"我只是来看看"
+			],
+			[
+				"添加",
+				"添加最后对话"
+			],
+			[
+				"栗",
+				"栗栗娘"
+			],
+			[
+				"既然",
+				"既然如此，就留你一条活路"
+			],
+			[
+				"table",
+				"table.print	(gge)"
+			],
+			[
+				"进入",
+				"进入战斗玩家id"
+			],
+			[
+				"请",
+				"请接收物资"
+			],
+			[
+				"Q",
+				"Q_门派编号	(任务处理类.lua)"
+			],
+			[
+				"fun",
+				"function	function"
+			],
+			[
+				"tab",
+				"table.print	(gge)"
+			],
+			[
+				"写",
+				"写出文件	(main.lua)"
+			],
+			[
+				"r",
+				"return	return 返回"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "GGE.lua",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "	exp={\n      50,200,450,800,1250,1800,2450,3250,4050,5000,6050,7200,8450,9800,11250,12800,14450,16200,18050,20000,22050,24200,\n      26450,28800,31250,33800,36450,39200,42050,45000,48050,51200,54450,57800,61250,64800,68450,72200,76050,80000,84050,\n      88200,92450,96800,101250,105800,110450,115200,120050,125000,130050,135200,140450,145800,151250,156800,162450,\n      168200,174050,180000,186050,192200,198450,204800,211250,217800,224450,231200,238050,245000,252050,259200,266450,\n      273800,281250,288800,296450,304200,312050,320000,328050,336200,344450,352800,361250,369800,378450,387200,396050,\n      405000,414050,423200,432450,441800,451250,460800,470450,480200,490050,500000,510050,520200,530450,540800,551250,\n      561800,572450,583200,594050,605000,616050,627200,638450,649800,661250,672800,684450,696200,708050,720000,732050,\n      744200,756450,768800,781250,793800,806450,819200,832050,845000,858050,871200,884450,897800,911250,924800,938450,\n      952200,966050,980000,994050,1008200,1022450,1036800,1051250,1065800,1080450,1095200,1110050,1125000,1140050,1155200,\n      1170450,1185800,1201250,1216800,1232450,1248200,1264050,1280000,1300000,1340000,1380000,1420000,1460000,1500000,1540000,\n      1580000,1700000,1780000,1820000,1940000,2400000,2880000,3220000,4020000,4220000,4420000,4620000,5220000,5820000,6220000,\n      7020000,8020000,9020000\n    }\n\n  local a=0\n  for i,v in pairs(exp) do\n     a = a +1\n  end\n  print(a)",
+			"file": "main.lua",
+			"file_size": 1460,
+			"file_write_time": 132347723830463266,
+			"settings":
+			{
+				"buffer_size": 1442,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Lua/ggegame.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/E/参考学习-飞蛾/Server/Script/战斗处理类/战斗处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/助战系统.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/道具处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/系统处理类/任务处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/对话处理类/对话内容.lua",
+		"/E/参考学习-飞蛾/Server/Script/对话处理类/对话处理.lua",
+		"/E/参考学习-飞蛾/Server/Script/对话处理类/单位对话.lua",
+		"/E/参考学习-飞蛾/Server/Script/对话处理类/活动对话.lua",
+		"/E/参考学习-飞蛾/Server/Script/系统处理类/系统处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/系统处理类/共用.lua",
+		"/E/参考学习-飞蛾/Server/data/a1234588/信息.txt",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/角色处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/礼包奖励类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/装备处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/数据中心/物品.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/内存类_物品.lua",
+		"/E/参考学习-飞蛾/Server/Script/战斗处理类/战斗准备类.lua",
+		"/E/参考学习-飞蛾/Server/data/a1234588/4000134/角色.txt",
+		"/E/参考学习-飞蛾/Server/data/a1234588/4000135/角色.txt",
+		"/E/参考学习-飞蛾/Server/Script/数据中心/活动.lua",
+		"/E/参考学习-飞蛾/Server/tysj/首席争霸.txt",
+		"/E/参考学习-飞蛾/Server/Script/数据中心/场景NPC.lua",
+		"/E/参考学习-飞蛾/Server/Script/商店处理类/商店处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/数据中心/场景名称.lua",
+		"/E/参考学习-飞蛾/Server/Script/地图处理类/地图处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/商店处理类/商城处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/系统处理类/游戏活动类.lua",
+		"/E/Server/Script/角色处理类/符石组合类.lua",
+		"/E/Server/Script/系统处理类/共用.lua",
+		"/E/Server/Script/商店处理类/商店处理类.lua",
+		"/E/Server/Script/系统处理类/任务处理类.lua",
+		"/E/Server/Script/角色处理类/角色处理类.lua",
+		"/E/Server/Script/对话处理类/单位对话.lua",
+		"/E/Server/Script/商店处理类/商城处理类.lua",
+		"/E/Server/Script/系统处理类/聊天处理类.lua",
+		"/E/Server/Script/数据中心/场景NPC.lua",
+		"/E/Server/Script/数据中心/物品.lua",
+		"/E/Server/Script/角色处理类/装备处理类.lua",
+		"/E/Server/Script/对话处理类/商业对话.lua",
+		"/E/Server/Script/系统处理类/系统处理类.lua",
+		"/E/Server/Script/系统处理类/玩法介绍.lua",
+		"/E/Client/script/场景类/梦幻指引.lua",
+		"/E/Server/tysj/签到数据.txt",
+		"/E/Server/Script/角色处理类/礼包奖励类.lua",
+		"/E/Server/Script/对话处理类/活动对话.lua",
+		"/E/Server/Script/数据中心/场景名称.lua",
+		"/E/Server/Script/数据中心/法术技能特效.lua",
+		"/E/Server/Script/地图处理类/地图处理类.lua",
+		"/E/Server/Script/ggebuf.lua",
+		"/E/Server/Script/角色处理类/召唤兽处理类.lua",
+		"/E/Server/Script/数据中心/商城神兽.lua",
+		"/E/Server/Script/属性控制/宠物.lua",
+		"/E/Server/Script/数据中心/宝宝.lua",
+		"/E/Server/Script/角色处理类/道具处理类.lua",
+		"/E/Server/Script/战斗处理类/战斗准备类.lua",
+		"/E/Server/Script/战斗处理类/战斗处理类.lua",
+		"/E/Server/Script/系统处理类/游戏活动类.lua",
+		"/E/Server/Script/对话处理类/对话处理.lua",
+		"/E/Server/Script/对话处理类/对话内容.lua",
+		"/E/Server/Script/系统处理类/管理工具类.lua",
+		"/E/Server/Script/数据中心/活动.lua",
+		"/E/Server/Script/角色处理类/帮派处理类.lua",
+		"/E/Client/script/场景类/打造.lua",
+		"/E/Server/Script/数据中心/取师门.lua",
+		"/E/Server/Script/数据中心/角色.lua",
+		"/E/Server/Script/数据中心/取经验.lua",
+		"/E/Server/Script/角色处理类/队伍处理类.lua",
+		"/C/Users/Administrator/AppData/Local/Temp/战斗处理类.lua-rev420.svn000.tmp.lua",
+		"/E/Server/Script/角色处理类/助战系统.lua",
+		"/E/Server/script/系统处理类/任务处理类",
+		"/E/Server/Script/地图处理类/路径类.lua",
+		"/E/Server/Script/地图处理类/MAP.lua",
+		"/E/Server/data/a1234588/4000136/角色.txt",
+		"/E/Server/Script/角色处理类/内存类_物品.lua",
+		"/E/Server/Script/系统处理类/网络处理类.lua",
+		"/E/Server/Script/对话处理类/帮派商业对话.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/商店处理类.lua-rev224.svn000.tmp.lua",
+		"/E/Server/Script/数据中心/变身卡.lua",
+		"/E/Server/Script/数据中心/地图坐标数据.lua",
+		"/E/Server/Script/数据中心/宝图.lua",
+		"/E/Server/Script/地图处理类/地图坐标类.lua",
+		"/E/Server/Script/数据中心/装备特技.lua",
+		"/E/Server/tysj/帮派数据.txt",
+		"/E/Server/main.lua",
+		"/E/gj/script/初系统/登陆.lua",
+		"/E/Server/script/商店处理类/商城处理类",
+		"/E/Server/script/战斗处理类/战斗处理类",
+		"/E/Server/script/对话处理类/对话处理",
+		"/E/Server/tysj/活跃数据.txt",
+		"/E/Client/tp信息记录.lua",
+		"/E/Server/Script/对话处理类/初始.lua",
+		"/E/Server/main",
+		"/E/Server/tysj/生死劫数据.txt",
+		"/E/Server/data/a1234588/4000134/角色.txt",
+		"/E/Server/data/a1234588/4000135/角色.txt",
+		"/E/Server/script/对话处理类/对话处理.lua",
+		"/E/Server/data/a1234588/4000136/召唤兽.txt",
+		"/E/Server/data/zbjkdw/60000191/召唤兽.txt",
+		"/E/Server/data/a1234588/4000134/召唤兽.txt",
+		"/E/gge/Core/Server/ggefunction.lua",
+		"/E/Server/data/583429428/20205337/角色.txt",
+		"/E/Server/data/583429428/20205337/道具.txt",
+		"/E/Server/data/583429428/账号信息.txt",
+		"/E/Server/data/a1234588/账号信息.txt",
+		"/E/gge/Core/Server/ggedebug.lua",
+		"/E/gge/Core/Server/ggebuf.lua",
+		"/E/gge/Core/Game/ggebuf.lua",
+		"/E/gge/Extend/ggebuf2.lua",
+		"/E/gge/Extend/ggebuf.lua",
+		"/E/Server/data/a12345881/账号信息.txt",
+		"/E/Server/script/对话处理类/对话内容",
+		"/C/Users/fengzi/Desktop/战斗准备类.lua",
+		"/C/Users/fengzi/Desktop/召唤兽数据.lua",
+		"/E/Server/data/a1234588/4000135/道具.txt",
+		"/E/Server/data/a1234588/4000134/道具.txt",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.633.1192/HZ$D.633.1195/Script/角色处理类/道具处理类.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.633.1192/HZ$D.633.1194/Script/角色处理类/装备处理类.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.633.1192/HZ$D.633.1193/Script/角色处理类/角色处理类.lua",
+		"/E/Server/data/zxc6686362/20204035/角色.txt",
+		"/E/Server/Script/数据中心/坐骑库.lua",
+		"/E/Server/Script/属性控制/坐骑.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.162.3593/HZ$D.162.3594/Script/战斗处理类/战斗处理类.lua",
+		"/C/Users/fengzi/Desktop/战斗处理类.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.768.1633/HZ$D.768.1634/Script/战斗处理类/战斗处理.lua",
+		"/E/Server/Script/角色处理类/技能类.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.987.4311/HZ$D.987.4312/Script/角色处理类/道具处理类.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.907.3420/HZ$D.907.3421/Script/战斗处理类/战斗处理.lua",
+		"/E/Server/Script/数据中心/传送位置.lua"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"E:\\参考学习-飞蛾\\Server\\Script",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\data\\a1234588\\4000135\\道具.txt",
+			"E:\\Server\\Script",
+			"E:\\Server\\data\\a1234588\\4000134\\角色.txt",
+			"E:\\Server\\Script",
+			"E:\\Server\\scene",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\数据中心",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\对话处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\角色处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\对话处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\对话处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\对话处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"F:\\飞蛾源码\\Server\\Script"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"取经验",
+			"我佛慈悲",
+			"新手福利",
+			"整秒处理",
+			"整分处理",
+			"新手活动",
+			"取队伍人数",
+			"我来领取福利",
+			"318",
+			"新服福利BOSS",
+			"不屈",
+			"新服福利BOSS、",
+			"助战",
+			"新服福利BOSS",
+			"福利",
+			"道具",
+			" \"",
+			"金蚕丝裙",
+			"置对象",
+			"生成指定装备礼包",
+			"全套装备礼包",
+			"购买装备礼包",
+			"110级",
+			"金蚕丝",
+			"金蚕",
+			"金",
+			"可装备",
+			"穿戴",
+			"1007",
+			"五虎",
+			"五虎上将",
+			"飞升",
+			"剧情.五虎上将",
+			"洗点",
+			"100100",
+			"10010",
+			"10011",
+			"1007",
+			"10007",
+			"剧情",
+			"你将获得我的一部分能力",
+			"刷新信息",
+			"3000",
+			"角色处理类:刷新信息",
+			"角色处理类：刷新信息",
+			"刷新信息",
+			"重置属性",
+			"重置",
+			"潜力",
+			"100097",
+			"1000097",
+			"染色方案",
+			"染色组",
+			"染色",
+			"染色组",
+			"染色",
+			"染色组",
+			"染色方案",
+			"染色组",
+			"染色",
+			"染色组",
+			"染色方案",
+			"1004",
+			"五虎",
+			"100097",
+			"马超",
+			"不屈",
+			"老七",
+			"不屈将魂",
+			"将",
+			"变强就点我",
+			"100095",
+			"100054",
+			"飞升",
+			"100096",
+			"染色方案=",
+			"心魔",
+			"染色",
+			"取武器数据",
+			"Q_随机模型",
+			"剧情",
+			"*0.7",
+			"取天罡星武器造型",
+			"渡劫",
+			"地煞",
+			"染色",
+			"锦衣",
+			"1008604",
+			"战斗准备",
+			"飞升",
+			"1002",
+			"1001",
+			"so",
+			"sp",
+			"sto",
+			"st",
+			"将魂",
+			"1002",
+			"武神坛",
+			"63",
+			"擒龙",
+			"武神坛使者",
+			"1004",
+			"1002",
+			"袁天罡",
+			"大雁塔一层",
+			"完成新服福利",
+			"完成福利",
+			"完成",
+			"完成新服福利BOSS",
+			"100060",
+			"福利",
+			"老八定制",
+			"老八",
+			"二徒弟",
+			"318",
+			"我来领取福利",
+			"318",
+			"刷出新服福利BOSS",
+			"福利",
+			"抓鬼仙玉",
+			"抓鬼",
+			"删除称谓",
+			"更新称谓",
+			"更新",
+			"更新陈哥",
+			"30",
+			"钥匙神秘宝箱处理"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"歧黄之术",
+			"铜砂丹",
+			"银砂丹",
+			"金砂丹",
+			"天冷曰妄空",
+			"空度禅师",
+			"程咬金",
+			"水兵",
+			"追忆情缘",
+			"角色.数据.捉鬼次数",
+			"{活跃度=0,领取100活跃=false,领取200活跃=false,领取300活跃=false,领取400活跃=false,领取500活跃=false,师门次数=20,官职次数=30,鬼怪次数=25,封妖次数=3,游泳次数=1,镖王次数=1,押镖次数=50,水果次数=25,副本次数=1,地煞星次数=5,天罡星次数=5,迷宫次数=1,世界BOSS次数=2,抓鬼次数=50}",
+			"活跃数据[id]={活跃度=0,领取100活跃=false,领取200活跃=false,领取300活跃=false,领取400活跃=false,领取500活跃=false,师门次数=20,官职次数=30,鬼怪次数=25,封妖次数=3,游泳次数=1,镖王次数=1,押镖次数=50,水果次数=25,副本次数=1,地煞星次数=5,天罡星次数=5,迷宫次数=1,世界BOSS次数=2,抓鬼次数=50}",
+			"账号",
+			"魔兽之印",
+			"角色.数据.跑商",
+			"汗血宝马",
+			"妖魔亲信",
+			"冠状病毒",
+			"玩家数据[数字id].角色.跑商",
+			"汗血宝马",
+			"\\n",
+			"取随机数",
+			"帮派机关人",
+			"幽萤娃娃",
+			"华风汉雅",
+			"高级夜战",
+			"凝神诀",
+			"if 玩家数据[数字id].角色.门派 == \"无\" or 玩家数据[数字id].角色.门派 == \"无门派\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "GGE.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								8,
+								20,
+								22,
+								49,
+								32,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 0,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								5,
+								24,
+								13,
+								38,
+								57,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 0,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 325.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Lua/ggegame.sublime-build",
+	"project": "游戏模板.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
